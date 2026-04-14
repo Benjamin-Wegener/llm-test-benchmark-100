@@ -1,13 +1,3 @@
-# 100 Hard LLM Benchmark Questions
-
-This file contains **100 challenging, multidisciplinary questions** in **10 languages** for rigorously testing Large Language Models (LLMs).
-
-**Supported languages:** English (EN), German (DE), French (FR), Japanese (JA), Spanish (ES), Chinese (ZH-CN), Russian (RU), Arabic (AR), Hindi (HI).
-
-The questions are deliberately mixed for balanced evaluation across languages. They test deep reasoning, domain expertise, factual accuracy, and complex topic handling.
-
-## Questions
-
 **1. [DE]** Ein Git-Repository enthält nur 10.000 Commits. Ein Entwickler führt den Befehl `git rebase -i HEAD~15000` aus. Was passiert genau und warum handelt es sich dabei um einen klassischen Fehler?
 
 **2. [EN]** In Python, why does `[] == []` evaluate to True while `[] is []` evaluates to False? Explain the difference using CPython internals (PyObject and reference counting).
