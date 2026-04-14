@@ -1,10 +1,12 @@
 # LLM Test Benchmark 100
 
-**100 hard, multidisciplinary questions in 7 languages** for evaluating Large Language Models.
+# LLM Test Benchmark 100
 
-This repository contains carefully crafted questions that test deep knowledge, logical reasoning, cross-domain understanding, and edge-case handling — ideal for researchers, developers, and anyone building or comparing LLMs.
+**100 extremely challenging, multidisciplinary questions** in **10 major world languages** designed to rigorously evaluate Large Language Models (LLMs).
 
-### Languages
+This benchmark tests deep domain knowledge, logical reasoning, cross-disciplinary understanding, factual precision, and handling of complex edge cases across computer science, philosophy, physics, law, medicine, economics, quantum mechanics, linguistics, and more.
+
+### Supported Languages
 - English (EN)
 - German (DE)
 - French (FR)
@@ -12,18 +14,10 @@ This repository contains carefully crafted questions that test deep knowledge, l
 - Spanish (ES)
 - Chinese (ZH-CN)
 - Russian (RU)
+- Arabic (AR)
+- Hindi (HI)
 
-### Topics
-- Systems & Distributed Computing
-- Programming Languages & Internals
-- Machine Learning & AI Theory
-- Philosophy & Epistemology
-- Physics & Quantum Mechanics
-- Economics & Game Theory
-- Law & Constitutional Theory
-- Medicine & Neuroscience
-- Evolutionary Biology
-- History, Linguistics, Music Theory, and more
+The questions are **evenly distributed** (~10 per language) and nicely mixed throughout the list for fair and balanced evaluation.
 
 **Created by:** [Benjamin-Wegener](https://github.com/Benjamin-Wegener)
 
@@ -33,16 +27,14 @@ All 100 questions are available in **[QUESTIONS.md](QUESTIONS.md)**
 
 ## Usage
 
-1. Copy any question
-2. Paste it into your LLM (optionally with a strong system prompt like *"You are a world-class expert with perfect reasoning..."*)
-3. Evaluate the answer for accuracy, depth, clarity, and consistency
-4. Compare models and track performance
-
-Great for:
-- Creating LLM leaderboards
-- Academic research
-- Model selection
-- Red-teaming and capability testing
+1. Copy any question from `QUESTIONS.md`
+2. Paste it into your target LLM (recommended with a strong system prompt)
+3. Evaluate the response on:
+   - Factual accuracy
+   - Depth of reasoning
+   - Clarity and structure
+   - Handling of nuance and edge cases
+4. Compare performance across models (GPT, Claude, Grok, Llama, Gemini, Qwen, etc.)
 
 ## License
 
