@@ -17,16 +17,35 @@ This benchmark tests deep domain knowledge, logical reasoning, cross-disciplinar
 
 The questions are **evenly distributed** (~10 per language) and nicely mixed throughout the list for fair and balanced evaluation.
 
-**Created by:** [Benjamin-Wegener](https://github.com/Benjamin-Wegener)
-
 ## 📋 Questions
 
 All 100 questions are available in **[QUESTIONS.md](QUESTIONS.md)**
 
+## Results
+
+| # | Criterion                | Description                                         |
+| - | ------------------------ | --------------------------------------------------- |
+| 1 | Technical Correctness    | Factual accuracy, verifiable errors                 |
+| 2 | Depth & Completeness     | Coverage of all sub-aspects                         |
+| 3 | Code Quality             | Correctness, idiomatic usage, constraint compliance |
+| 4 | Linguistic Appropriatess | Responds in the language of the question            |
+| 5 | Nuance                   | Edge cases, counterarguments, differentiation       |
+
+
+
+| Rang | LLM     | Korrektheit | Prägnanz | Code | Sprache | Nuance | Gesamt /50 |
+| ---- | ------- | ----------- | -------- | ---- | ------- | ------ | ---------- |
+| 🥇 1 | Claude  | 9.5         | 8.0      | 8.5  | 9.5     | 9.5    | 45.0       |
+| 🥈 2 | Grok    | 9.0         | 8.5      | 8.5  | 9.0     | 9.0    | 44.0       |
+| 🥉 3 | Qwen    | 8.5         | 8.5      | 8.5  | 9.0     | 8.0    | 42.5       |
+| 4    | ChatGPT | 8.5         | 9.5      | 7.5  | 9.0     | 6.0    | 40.5       |
+| 5    | Mistral | 8.5         | 3.0      | 9.0  | 9.5     | 9.0    | 39.0       |
+| 6    | ERNIE   | 5.5         | 7.0      | 4.5  | 6.5     | 6.0    | 29.5       |
+
 ## Usage
 
 1. Copy any question from `QUESTIONS.md`
-2. Paste it into your target LLM (recommended with a strong system prompt)
+2. Paste it into your target LLM with this simple prompt: Answer all questions in their language, be brief, just plaintext.
 3. Evaluate the response on:
    - Factual accuracy
    - Depth of reasoning
@@ -49,4 +68,4 @@ Feel free to open issues or pull requests if you want to:
 
 ---
 
-Made with ❤️ for the LLM evaluation community.
+Made with ❤️ by [Benjamin-Wegener](https://github.com/Benjamin-Wegener) for the LLM community.
