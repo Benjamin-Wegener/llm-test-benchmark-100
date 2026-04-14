@@ -21,7 +21,7 @@ The questions are **evenly distributed** (~10 per language) and nicely mixed thr
 
 All 100 questions are available in **[QUESTIONS.md](QUESTIONS.md)**
 
-## Results
+## Results (free plan of the LLM websites) 04/14/2026
 
 | # | Criterion                | Description                                         |
 | - | ------------------------ | --------------------------------------------------- |
@@ -33,14 +33,14 @@ All 100 questions are available in **[QUESTIONS.md](QUESTIONS.md)**
 
 
 
-| Rang | LLM     | Korrektheit | Prägnanz | Code | Sprache | Nuance | Gesamt /50 |
-| ---- | ------- | ----------- | -------- | ---- | ------- | ------ | ---------- |
-| 🥇 1 | Claude  | 9.5         | 8.0      | 8.5  | 9.5     | 9.5    | 45.0       |
-| 🥈 2 | Grok    | 9.0         | 8.5      | 8.5  | 9.0     | 9.0    | 44.0       |
-| 🥉 3 | Qwen    | 8.5         | 8.5      | 8.5  | 9.0     | 8.0    | 42.5       |
-| 4    | ChatGPT | 8.5         | 9.5      | 7.5  | 9.0     | 6.0    | 40.5       |
-| 5    | Mistral | 8.5         | 3.0      | 9.0  | 9.5     | 9.0    | 39.0       |
-| 6    | ERNIE   | 5.5         | 7.0      | 4.5  | 6.5     | 6.0    | 29.5       |
+| Rang | LLM     | Accuracy	 | Conciseness | Code | Language | Nuance | Total /50 |
+| ---- | ------- | ----------- | ----------- | ---- | -------- | ------ | --------- |
+| 🥇 1 | Claude  | 9.5         | 8.0         | 8.5  | 9.5      | 9.5    | 45.0      |
+| 🥈 2 | Grok    | 9.0         | 8.5         | 8.5  | 9.0      | 9.0    | 44.0      |
+| 🥉 3 | Qwen    | 8.5         | 8.5         | 8.5  | 9.0      | 8.0    | 42.5      |
+| 4    | ChatGPT | 8.5         | 9.5         | 7.5  | 9.0      | 6.0    | 40.5      |
+| 5    | Mistral | 8.5         | 3.0         | 9.0  | 9.5      | 9.0    | 39.0      |
+| 6    | ERNIE   | 5.5         | 7.0         | 4.5  | 6.5      | 6.0    | 29.5      |
 
 ## Usage
 
