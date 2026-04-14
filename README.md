@@ -1,7 +1,5 @@
 # LLM Test Benchmark 100
 
-# LLM Test Benchmark 100
-
 **100 extremely challenging, multidisciplinary questions** in **10 major world languages** designed to rigorously evaluate Large Language Models (LLMs).
 
 This benchmark tests deep domain knowledge, logical reasoning, cross-disciplinary understanding, factual precision, and handling of complex edge cases across computer science, philosophy, physics, law, medicine, economics, quantum mechanics, linguistics, and more.
