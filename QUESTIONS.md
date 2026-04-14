@@ -1,5 +1,3 @@
-Hier sind die korrigierten Fragen als reiner Text, bereit für deinen Test:
-
 Ein Git-Repository enthält nur 10.000 Commits. Ein Entwickler führt den Befehl `git rebase -i HEAD~15000` aus. Was passiert genau und warum handelt es sich dabei um einen klassischen Fehler?
 
 In Python, why does `[] == []` evaluate to True while `[] is []` evaluates to False? Explain the difference using CPython internals (PyObject and reference counting).
